@@ -14,7 +14,7 @@ const homeLoad = () => {
     const imageRestaurant = document.createElement("img");
     imageRestaurant.classList.add("image-home");
     imageRestaurant.setAttribute('alt', 'image-restaurant');
-    imageRestaurant.setAttribute('src','../assets/pizza-restaurant.jpg');
+    imageRestaurant.src = "../assets/pizza-restaurant.jpg";
 
 
     pageContent.appendChild(headerDiv);
