@@ -1,0 +1,26 @@
+.menu-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    .item-pizza {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        background-color: rgba(15, 182, 49, 0.616);
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        }
+    .item-pizza:hover{
+        transform: scale(1.14);
+    }
+
+}

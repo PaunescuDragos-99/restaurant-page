@@ -1,0 +1,13 @@
+.image-home{
+    display: flex;
+    flex-shrink: 1;
+    height: 400px;
+}
+
+
+@media all and (max-width: 600px) {
+    .image-home{
+        height: 200px;
+        width: 100%;
+    }
+}
